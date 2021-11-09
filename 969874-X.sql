@@ -1,1 +1,1 @@
-show tablespace;
+select * from country;
