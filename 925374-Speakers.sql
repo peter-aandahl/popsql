@@ -3,4 +3,4 @@ select l.language, c.population*l.percentage/100 as speakers from country_langua
 join country c
 on c.code = l.country_code
 group by l.language
-order by population;
+order by c.population;
