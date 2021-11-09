@@ -1,1 +1,2 @@
-select region, count(*) as conutries from country;
+select region, count(*) as countries from country
+group by 1;
