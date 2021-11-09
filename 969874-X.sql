@@ -1,1 +1,1 @@
-select * from country;
+select region, count(*) as conutries from country;
